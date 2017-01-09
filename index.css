@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*ブラウザスタイルのリセット*/
+body,h1,h2,h3,p,address,table,thead,tbody,th,td,input,ul,li{
+font-family:"メイリオ";
+line-height:1em;
+margin:0px;
+padding:0px;
+font-style:normal;
+text-align:justify;
+list-style: none;
+}
+body{
+background:#369;
+padding:20px;
+}
+
+#before_settings li{
+    float: left;
+}
+#before_settings li select{
+    margin-right: 2em;
+}
+#count_table{
+    clear: both;
+}
+#tax_value{
+    text-align: right;
+}
+
+th,td{
+    margin:5px;
+}
+
+td{
+    text-align: right;
+    background: #fff;
+}
+
+#table_head tr th {
+text-align: center;
+background: #ddd;
+}
+#table_body tr th{
+    background: #fff;
+}
+
+#name{
+    text-align: left;
+}
+
